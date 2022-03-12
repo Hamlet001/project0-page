@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>BACK TO THE FUTURE</title>
+
+    
+
+</head>
+<body>
+
+  <!--Nav bar Home-->
+  <header>
+		<div class="contenedor">
+			<h2 class="logotipo">Back to the Future</h2>
+			<nav>
+				<a href="./index.html" class="activo">Primera Parte</a>
+				<a href="./part2.html">Segunda Parte</a>
+				<a href="./Part3.html">Tercera Parte</a>
+				<a href="./FunFacts.html" id="funfacts">Datos Curiosos</a>
+			</nav>
+		</div>
+	</header>
+
+    <!--Content-->
+    <main>
+      <div class="Banner-Principal">
+        <div class="contenedor">
+            <h3 class="Titulo">Back to the Future (1985)</h3>
+
+            <div class="movie-detail">
+              <div class="set">
+                  <label>Fecha de Estreno</label>
+                  <span>07/03/1985 (US)
+                  </span>
+              </div>
+              <div class="set">
+                  <label>Duracion</label>
+                  <span>1h 57m</span>
+              </div>
+              <div class="set">
+                  <label>Genero</label>
+                  <span>Aventura, Comedia, Ciencia ficción, Familia</span>
+              </div>
+              <p></p>
+
+            <p class="Descripcion">El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible.</p>
+
+            
+
+            <button class="boton" id="Play">Reproducir</button>
+            <button class="boton" id="info">Mas Informacion</button>
+        </div>
+      </div>
+    </main>
+
+    <!--Carousel Images Posters-->
+
+    <div class="capturas-principales contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Capturas Principales</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="/images/Part1img1.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="/images/Part1img2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="/images/Part1img3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="/images/Part1img4.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="/images/Part1img5.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+    <!-- Grid Cards for Actors-->
+
+    <section class="bg-dark d-flex justify-content-center align-items-center h-100 min-vh-100 ">
+      <div class="container">
+          <div class="row gy-2">
+            <div class="col-lg-4 col-md-4">
+                <div class="box bg-primary h-100 d-flex p-4 flex-column text-white">
+                  <img src="/images/Marty_McFly.png" alt="">
+                  <h1 class="mt-3">Marty Mcfly</h1>
+                  <p class="mt-3">Martin Seamus McFly, conocido como Marty McFly, es el personaje protagonista de la trilogía de películas de Back to the Future, interpretado por Michael J. Fox en las películas, doblado por David Kaufman​ en la serie de dibujos animados y A.J Locascio en el videojuego Back to the Future: The Game.</p>
+                  <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item">Edad: 17 años (en 1985); 47 años (en 2015)</li>
+                    <li class="list-group-item">Estatura: 1,64 m (5 ′ 5 ″)</li>
+                    <li class="list-group-item">Pareja: Jennifer Parker</li>
+                  
+                  </ul>
+                  <a href="#" class="btn mt-auto btn-dark">Perfil</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+              <div class="box bg-primary h-100 d-flex p-4 flex-column text-white">
+                <img src="/images/Doc_Brown (1).png" alt="">
+                <h1 class="mt-3">Doc. Brown</h1>
+                <p class="mt-3">Dr. Emmett Lathrop Brown, apodado Doc, es un personaje de ficción de la trilogía de películas Back to the Future interpretado por el actor estadounidense Christopher Lloyd. La apariencia y gestos del personaje están vagamente inspirados en Leopold Stokowski y Albert Einstein.​</p>
+                <ul class="list-group list-group-flush mt-3">
+                  <li class="list-group-item">Nombre de nacimiento: Emmett Lathrop Brown</li>
+                  <li class="list-group-item">Alias: Doc</li>
+                  <li class="list-group-item">Primera aparición: Back to the Future (1985)</li>
+                
+                </ul>
+                <a href="#" class="btn mt-auto btn-dark">Perfil</a>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="box bg-primary h-100 d-flex p-4 flex-column text-white">
+              <img src="/images/leathompson.png" alt="">
+              <h1 class="mt-3">Lorraine Baines</h1>
+              <p class="mt-3">Lorraine Baines McFly es un personaje de la trilogía de Back to the Future. Es la madre de Marty McFly; uno de los personajes protagonistas de la primera película, pero un personaje secundario en las dos secuelas.</p>
+              <ul class="list-group list-group-flush mt-3">
+                <li class="list-group-item">Pareja: George McFly</li>
+                <li class="list-group-item">Universo ficticio: Back to the Future</li>
+                <li class="list-group-item">Creadores: Robert Zemeckis, Bob Gale</li>
+              </ul>
+              <a href="#" class="btn mt-auto btn-dark">Perfil</a>
+            </div>
+        </div>
+          </div>
+      </div>
+    </section>
+    
+
+
+</body>
+</html>
