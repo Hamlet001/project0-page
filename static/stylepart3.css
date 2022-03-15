@@ -57,8 +57,8 @@ header a.activo {
   font-size: 16px;
   min-height: 40.62em;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/images/Poster_Final.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(/images/Poster_Final.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(images/Poster_Final.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(images/Poster_Final.jpg);
   background-position: center center;
   background-size: cover;
   margin-bottom: 3.12em;
